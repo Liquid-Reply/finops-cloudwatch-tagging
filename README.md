@@ -9,7 +9,10 @@ We had created a simple bash script that can be used in order to tag any cloudwa
 How the script works?
 
 - Please make sure to install AWS CLI tool: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-- Once you had managed to install the AWS CLI tool at your local machine, run the bash script using: bash cloudwatch-tag.sh
+- Once you had managed to install the AWS CLI tool at your local machine, run the bash script using: 
+```
+bash cloudwatch-tag.sh
+```
 - The script that will start configuring the profile, asking for Access Key ID and Secret Key ID, as well as the region these Cloudwatch are provisioned at. 
 - Once you these data, it would ask for the arn (Amazon Resource Name) of which resource you would like to tag .i.e. an alarm, metric,..etc
 - Afterwards, It would then ask for the key of the tag, as well the value of that tag .i.e. Key=namespace, Value=finance
